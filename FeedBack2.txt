@@ -1,0 +1,23 @@
+----Concetual e Relacional
+Por o modelo concetual inicial e final
+Confirmar se os nomes dos atributos são iguais no modelo concetual e relacional
+Confirmar se está correto as seguintes coisas:
+	.Condutor: tem pontuacao_condutor a mais
+	.Partilha: dia da semana a mais
+	.Zona é para a classe Localidade?
+	.LocalidadesPossiveis está mapeada como se a associação fosse *-*
+Utilizador não tem primary key indicada no modelo relacional
+Corrigir DF e FN
+
+----SQL
+Indentar script sql
+Tirar avaliações double
+Tirar o not null das PK
+Confirmar se os nomes estão iguais no relacional e sql
+Mudar a chave primária de user para id em vez de usar o numero up
+ADicionar chave estrangeira ao condutor para carro
+Tirar tipo de dados string
+Adicionar 2 chaves estrangeiras a mensagem para utilizador
+Não é necessário dizer que a primary key é unique
+Compor inserções
+COmpor foreign keys por causa das inserções
