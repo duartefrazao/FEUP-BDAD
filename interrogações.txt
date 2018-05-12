@@ -1,0 +1,7 @@
+[Duarte]
+1- Quais as partilhas entre um intervalo de horas a passar no sitio que quero
+2- Quais as viagens para o dia x num certo intervalo de horas que passam no sitio que quero
+3- Quais as viagens a passar no sitio que quero com mais pessoas no carro sem estarem cheias
+4- Quais os pares de viagens diários que me levam e trazem para a feup num certo intervalo de horas
+5- Qual a pontuação do condutor
+
