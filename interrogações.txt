@@ -4,4 +4,10 @@
 3- Quais as viagens a passar no sitio que quero com mais pessoas no carro sem estarem cheias
 4- Quais os pares de viagens diários que me levam e trazem para a feup num certo intervalo de horas
 5- Qual a pontuação do condutor
+[Yaguas]
+6- Quais os três condutores com melhor pontuação
+7- Qual é a diferença entre a partilha mais cara e mais barata a partir da mesma zona com destino FEUP
+8- Qual é o condutor com carta de condução mais perto de expirar
+9- Utilzadores que partiram da Zona X num intervalo de datas
+10- Qual é a Zona com mais partidas/chegadas
 
