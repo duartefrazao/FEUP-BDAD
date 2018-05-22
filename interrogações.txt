@@ -11,3 +11,11 @@
 9- Utilzadores que partiram da Zona X num intervalo de datas
 10- Qual é a Zona com mais partidas/chegadas
 
+--Trigers
+
+Limite máximo da avaliação
+
+LocalParagem tem de pertencer à Zona
+
+Ao adicionar um Condutor é automaticamente adicionado um carro de forma que o Condutor esteja sempre associado a um Carro
+
