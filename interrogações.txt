@@ -28,3 +28,5 @@ Ao adicionar um Condutor é automaticamente adicionado um carro de forma que o C
 [Henrique]
 1-Nr total de partilhas de um condutor
 2-Média do preço total de todas as viagens
+3-Condutor com mais passageiros levados.
+4-Condutor com melhor média.
