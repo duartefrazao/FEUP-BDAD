@@ -123,16 +123,16 @@ INSERT INTO Partilha (id, para_feup, preço_total, lugares_disponiveis, hora_com
 
 
 -- Table: Viagem
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (1, '2018-01-09', 1);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (2, '2017-10-20', 2);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (3, '2017-04-30', 3);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (4, '2018-02-04', 4);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (5, '2017-11-23', 5);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (6, '2018-04-11', 6);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (7, '2017-09-01', 7);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (8, '2018-04-04', 8);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (9, '2018-01-04', 9);
-INSERT INTO Viagem (id, data, partilha_associada) VALUES (10, '2018-03-06', 10);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (1,0, '2018-01-09', 1);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (2,0, '2017-10-20', 2);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (3,0, '2017-04-30', 3);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (4,0, '2018-02-04', 4);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (5,0, '2017-11-23', 5);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (6,0, '2018-04-11', 6);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (7,0, '2017-09-01', 7);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (8,0, '2018-04-04', 8);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (9,0, '2018-01-04', 9);
+INSERT INTO Viagem (id,lugares_ocupados, data, partilha_associada) VALUES (10,0, '2018-03-06', 10);
 
 
 

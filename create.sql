@@ -95,6 +95,7 @@ CONSTRAINT "dias-da-semana-validos" CHECK (dia_da_semana >= 1 and dia_da_semana 
 -- Table: Viagem
 CREATE TABLE Viagem (
 id INTEGER PRIMARY KEY, 
+lugares_ocupados INTEGER NOT NULL,
 data DATE NOT NULL, 
 partilha_associada INTEGER REFERENCES Partilha (id) ON DELETE CASCADE ON UPDATE CASCADE NOT NULL);
 
