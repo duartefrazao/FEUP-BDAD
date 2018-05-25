@@ -5,10 +5,10 @@
 -- Quais os três condutores com melhor pontuação
 
 SELECT
- nome,
+ numero_up,
  pontuaçao_condutor
 FROM
- condutores
-ORDER BY
+ condutor
+ORDER BY DESC
  pontuaçao_condutor
 LIMIT 3;
