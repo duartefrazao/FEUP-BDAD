@@ -25,6 +25,11 @@ LocalParagem tem de pertencer à Zona
 
 Ao adicionar um Condutor é automaticamente adicionado um carro de forma que o Condutor esteja sempre associado a um Carro
 
+[Henrique]
+1-Nr total de partilhas de um condutor
+2-Média do preço total de todas as viagens
+3-Condutor com mais passageiros levados.
+4-Condutor com melhor média.
 
 Queries
 ---------- Quais as próximas viagens do condutor x na proxima semana, alterando a data [feita]
