@@ -4,6 +4,12 @@
 3- Quais as viagens a passar no sitio que quero com mais pessoas no carro sem estarem cheias
 4- Quais os pares de viagens diários que me levam e trazem para a feup num certo intervalo de horas
 5- Qual a pontuação do condutor
+6- Quais as próximas 10 viagens do condutor x
+7- Viagens para a feup hoje ordenadas por mais pessoas no carro (não cheio)
+
+--Triggers
+Ao uma pessoa se associar a uma viagem decrementar o numero de lugares disponiveis
+
 [Yaguas]
 6- Quais os três condutores com melhor pontuação
 7- Qual é a diferença entre a partilha mais cara e mais barata a partir da mesma zona com destino FEUP
@@ -18,4 +24,4 @@ Limite máximo da avaliação
 LocalParagem tem de pertencer à Zona
 
 Ao adicionar um Condutor é automaticamente adicionado um carro de forma que o Condutor esteja sempre associado a um Carro
-
+	
