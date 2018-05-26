@@ -2,17 +2,13 @@
 .headers on
 .nullvalue NULL
 
--- Quais os 3 condutores que tiveram as partilhas mais baratas
+-- Qual o condutor, que também é utilizador, com maior descrepância de pontuações
 
-select distinct
-  numero_up,
-  preço_total
-from
-  condutor
-  join
-  partilha
-  where
-  partilha.condutor=condutor.numero_up
-  order by
-  preço_total ASC
-  limit 3;
+SELECT nome,
+       Max(Abs(avaliaçao_condutor - avaliçao_passageiro))
+       "Maior diferença de avaliação"
+FROM   avaliaçao,
+       condutor,
+       utilizador
+WHERE  avaliaçao.utilizador = utilizador.numero_up
+       AND utilizador.numero_up = condutor.numero_up;
