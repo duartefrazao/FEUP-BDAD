@@ -80,7 +80,7 @@ INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro)
 INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201703344, '3922-01-22', 4, 5);
 INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201713108, '11957-06-16', 2, 7);
 INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201763907, '9511-08-25', 3, 8);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201779978, '18565-01-23', 1, 9);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201779978, '18565-01-23', 4, 9);
 INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201781701, '17098-08-20', 1, 10);
 
 

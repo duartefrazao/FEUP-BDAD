@@ -9,7 +9,7 @@ SELECT
   data,
   hora_começo,
   lugares_disponiveis,
-  preço_total,
+  preco_total,
   para_feup
 FROM
   viagem

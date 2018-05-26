@@ -2,10 +2,10 @@
 .headers on
 .nullvalue NULL
 
--- Qual o condutor, que também é utilizador, com maior descrepância de pontuações
+-- Qual o condutor, que também é utilizador, com maior discrepância de pontuações
 
 SELECT nome,
-       Max(Abs(avaliacao_condutor - avalicao_passageiro))
+       Max(Abs(avaliacao_condutor - avaliacao_passageiro))
        "Maior diferença de avaliação"
 FROM   avaliacao,
        condutor,

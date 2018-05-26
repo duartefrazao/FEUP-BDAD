@@ -18,9 +18,9 @@ AS
   ORDER  BY preco_total ASC
   LIMIT  1;
 
-SELECT expensivesharing.preco_total - cheapesharing.preco_total
+SELECT expensivesharing.preco_total - cheapesharing.preco_total 'Diferença de preços'
 FROM   expensivesharing,
        cheapesharing;
 
-DROP view IF EXISTS expensivesharing; 
+DROP view IF EXISTS expensivesharing;
 DROP view IF EXISTS cheapesharing;
