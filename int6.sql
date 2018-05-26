@@ -5,10 +5,10 @@
 -- Qual o condutor, que também é utilizador, com maior descrepância de pontuações
 
 SELECT nome,
-       Max(Abs(avaliaçao_condutor - avaliçao_passageiro))
+       Max(Abs(avaliacao_condutor - avalicao_passageiro))
        "Maior diferença de avaliação"
-FROM   avaliaçao,
+FROM   avaliacao,
        condutor,
        utilizador
-WHERE  avaliaçao.utilizador = utilizador.numero_up
+WHERE  avaliacao.utilizador = utilizador.numero_up
        AND utilizador.numero_up = condutor.numero_up;

@@ -4,25 +4,23 @@
 
 -- Qual é a diferença entre a partilha mais cara e mais barata a partir da mesma zona com destino FEUP
 
-create view expensiveSharing as
-SELECT
- preço_total
-FROM
- partilha
-ORDER BY
- preço_total DESC
-LIMIT 1;
+CREATE view expensivesharing
+AS
+  SELECT preco_total
+  FROM   partilha
+  ORDER  BY preco_total DESC
+  LIMIT  1;
 
-create view cheapeSharing as
-SELECT
-   preço_total
-FROM
-   partilha
-ORDER BY
-   preço_total ASC
-LIMIT 1;
+CREATE view cheapesharing
+AS
+  SELECT preco_total
+  FROM   partilha
+  ORDER  BY preco_total ASC
+  LIMIT  1;
 
-SELECT expensiveSharing.preço_total - cheapeSharing.preço_total from expensiveSharing, cheapeSharing;
+SELECT expensivesharing.preco_total - cheapesharing.preco_total
+FROM   expensivesharing,
+       cheapesharing;
 
-drop view if exists expensiveSharing;
-drop view if exists cheapeSharing;
+DROP view IF EXISTS expensivesharing; 
+DROP view IF EXISTS cheapesharing;

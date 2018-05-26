@@ -1,16 +1,14 @@
---Triggers
-
-Queries
-----------Quais as próximas viagens do condutor x na proxima semana, alterando a data [feita] 
-----------Maior diferencial de pontuações Y
-----------Condutores com 5 a todas as viagens D
-----------Nunca tiveram um 5 H
-----------Viagens no dia x para a feup com lugares disponiveis ordenado pelo preço minimo [feita]
-----------Quais os três condutores com melhor pontuação Y
-----------O condutor que leva mais vezes o carro cheio Y
-----------Quais as viagens para o dia x num certo intervalo de horas que passam no sitio que quero H
-----------Qual o condutor com o qual já fiz mais viagens H
-----------Quais os pares de viagens diários que me levam e trazem para a feup num certo intervalo de horas H
+﻿Queries
+----------1.Quais as próximas viagens do condutor x na proxima semana, alterando a data [feita] 
+----------2.Condutores com 5 a todas as viagens D
+----------3.Viagens no dia x para a feup com lugares disponiveis ordenado pelo preço minimo [feita]
+----------4.Quais os três condutores com melhor pontuação Y [Feita]
+----------5.O condutor que leva mais vezes o carro cheio Y
+----------6.Maior diferencial de pontuações Y [Feita]
+----------7.Nunca tiveram um 5 H
+----------8.Quais as viagens para o dia x num certo intervalo de horas que passam no sitio que quero H
+----------9.Qual o condutor com o qual já fiz mais viagens H
+----------10.Quais os pares de viagens diários que me levam e trazem para a feup num certo intervalo de horas H
 
 
 Viagens com condutoes com pontuação minha menor que 4
@@ -31,8 +29,8 @@ O condutor que leva mais vezes o carro cheio
 
 Triggers
 
-Não deixar que o utilizador que se associa a uma viagem é o condutor H
+1.Não deixar que o utilizador que se associa a uma viagem é o condutor H
 
-Ao uma pessoa se associar a uma viagem decrementar o numero de lugares disponiveis Y
+2.Ao uma pessoa se associar a uma viagem decrementar o numero de lugares disponiveis Y
 
-Atualizar as pontuações D
+3.Atualizar as pontuações D
