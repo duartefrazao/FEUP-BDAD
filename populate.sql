@@ -116,10 +116,10 @@ INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_come
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (4, 'false', 1.3, 5, '10:20 AM', '2018-04-24', '2018-04-25', 4, 201781701);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (5, 'true', 4.1, 3, '1:25 PM', '2018-05-04', '2018-05-27', 5, 201620671);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (6, 'false', 3.6, 2, '2:10 AM', '2018-06-05', '2018-06-06', 6, 201676530);
-INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (7, 'false', 2.6, 2, '11:33 AM', '2018-04-29', '2018-05-16', 7, 201703344);
-INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (8, 'true', 1.7, 1, '4:42 AM', '2018-05-28', '2018-06-02', 2, 201779978);
+INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (7, 'false', 2.6, 3, '11:33 AM', '2018-04-29', '2018-05-16', 7, 201703344);
+INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (8, 'true', 1.7, 4, '4:42 AM', '2018-05-28', '2018-06-02', 2, 201779978);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (9, 'false', 5.7, 4, '6:38 PM', '2018-05-11', '2018-05-25', 4, 201646646);
-INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (10, 'false', 4.5, 1, '12:47 AM', '2018-06-05', '2018-06-06', 2, 201713108);
+INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (10, 'false', 4.5, 3, '12:47 AM', '2018-06-05', '2018-06-06', 2, 201713108);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (11, 'true', 1.3, 5, '3:32 PM', '2018-04-25', '2018-04-25', 4, 201781701);
 
 
@@ -149,15 +149,15 @@ INSERT INTO LocalidadesPossiveis (zona, viagem) VALUES (9, 9);
 INSERT INTO LocalidadesPossiveis (zona, viagem) VALUES (10, 10);
 
 -- Table: LocalParagem
-INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201620178, 4, 'Sundown', '17.060816', 1);
-INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201707499, 6, 'Sachs', '18.220554', 2);
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201620178, 2, 'Sundown', '17.060816', 1);
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201707499, 3, 'Sachs', '18.220554', 2);
 INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201663587, 1, 'Prentice', '41.153332', 2);
-INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201621769, 1, 'Karstens', '40.069099', 3);
-INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201737597, 1, 'Hazelcrest', '12.226079', 7);
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201621769, 10, 'Karstens', '40.069099', 3);
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201737597, 8, 'Hazelcrest', '12.226079', 7);
 INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201767900, 10, 'Trailsway', '-11.202692', 8);
 INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201672982, 9, 'Burrows', '-75.250973', 9);
-INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201721469, 4, 'Melby', '-38.416097', 9);
-INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201636717, 5, 'Drewry', '-14.270972', 2);
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201721469, 8, 'Melby', '-38.416097', 9);
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201636717, 7, 'Drewry', '-14.270972', 2);
 INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201754749, 8, 'Claremont', '47.516231', 1);
 
 

@@ -9,17 +9,21 @@ PRAGMA foreign_keys = ON;
 CREATE TRIGGER AssociarViagem
 BEFORE INSERT ON LocalParagem
 FOR EACH ROW
+WHEN ((select lugares_ocupados from viagem) <> (select lugares_disponiveis from partilha) and
+(select partilha_associada from viagem) = (select id from partilha))
   BEGIN
     UPDATE Viagem
     SET lugares_ocupados = lugares_ocupados + 1
-    WHERE lugares_ocupados <> (select lugares_disponiveis from Partilha);
+    WHERE id = new.viagem;
   END;
 
 -- Quando uma pessoa se desassocia a uma viagem decrementa o número de lugares ocupados
 CREATE TRIGGER DesassociarViagem
 AFTER DELETE ON LocalParagem
 FOR EACH ROW
+WHEN ((select partilha_associada from viagem) = (select id from partilha))
   BEGIN
     UPDATE Viagem
-    SET lugares_ocupados = lugares_ocupados - 1;
+    SET lugares_ocupados = lugares_ocupados - 1
+    WHERE id = old.viagem;
   END;
