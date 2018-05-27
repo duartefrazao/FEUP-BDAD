@@ -12,5 +12,5 @@ BEFORE INSERT ON LocalParagem
 FOR EACH ROW
 WHEN ( new.utilizador = (select condutor from partilha where partilha.id = (select partilha_associada from viagem where viagem.id = 1)))
 BEGIN
-SELECT RAISE(ignore, 'Utilizador é o condutor! Impossível associar');
+SELECT RAISE(abort, 'Utilizador é o condutor! Impossível associar');
 END;
