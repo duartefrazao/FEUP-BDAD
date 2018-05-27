@@ -23,6 +23,16 @@ FROM viagem
 WHERE id = 1;
 
 .print ''
+.print '<<<Apos criacao de LocalParagem -> nao pode adicionar mais por o carro estar cheio>>>'
+.print ''
+
+INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201763907, 1, 'Porto', '13.220554', 2);
+
+SELECT id , lugares_ocupados
+FROM viagem
+WHERE id = 1;
+
+.print ''
 .print '<<<Apos remocao de LocalParagem -> dispara gatilho que decrementa o número de lugares ocupados de Viagem>>>'
 .print ''
 
