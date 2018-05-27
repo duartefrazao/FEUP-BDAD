@@ -1,4 +1,3 @@
-
 .mode columns
 .header on
 .nullvalue NULL
@@ -9,16 +8,16 @@ PRAGMA foreign_keys = ON;
 .print '<<<Estado atual das pontuações dos condutores da avaliacao:>>>'
 .print ''
 
-select numero_up,pontuacao_condutor 
-from Condutor 
-    join Partilha 
-    join Viagem 
+select numero_up,pontuacao_condutor
+from Condutor
+    join Partilha
+    join Viagem
     join Avaliacao
-where 
-    Condutor.numero_up=Partilha.condutor and 
+where
+    Condutor.numero_up=Partilha.condutor and
     Partilha.id=Viagem.partilha_associada AND
     Avaliacao.viagem=Viagem.id AND
-    Avaliacao.utilizador=201721469 AND  
+    Avaliacao.utilizador=201721469 AND
     Avaliacao.viagem=4;
 
 select numero_up, pontuacao_condutor from Condutor where numero_up=201781701;
