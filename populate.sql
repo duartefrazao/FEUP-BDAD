@@ -40,48 +40,48 @@ INSERT INTO Carro (id, matricula, modelo) VALUES (9, 'LA-LA-44', 2);
 INSERT INTO Carro (id, matricula, modelo) VALUES (10, '11-21-AA', 2);
 
 -- Table: Utilizador
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201600668,1, 'Mora', '1997-04-26', 9115848906);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201614806,3, 'Trever', '1994-05-23', 2172850667);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201620178,2, 'Kin', '1992-12-25', 9692535312);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201620671,4, 'Fifi', '1990-04-26', 1546655417);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201621769,2.4, 'Margery', '1990-08-16', 2484095511);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201626491,1.5, 'Thedrick', '1997-05-19', 6668709516);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201636717,2, 'Myrle', '1998-01-02', 2919984950);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201646646,1, 'Anderea', '1993-07-03', 7901929480);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201663587,2, 'Burnaby', '1991-12-01', 5760808362);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201666749,3.4, 'Timothy', '1995-02-27', 1739785215);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201672867,4.7, 'Ranna', '1996-04-20', 6696102736);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201600668,5, 'Mora', '1997-04-26', 9115848906);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201614806,5, 'Trever', '1994-05-23', 2172850667);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201620178,5, 'Kin', '1992-12-25', 9692535312);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201620671,5, 'Fifi', '1990-04-26', 1546655417);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201621769,5, 'Margery', '1990-08-16', 2484095511);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201626491,5, 'Thedrick', '1997-05-19', 6668709516);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201636717,5, 'Myrle', '1998-01-02', 2919984950);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201646646,5, 'Anderea', '1993-07-03', 7901929480);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201663587,5, 'Burnaby', '1991-12-01', 5760808362);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201666749,5, 'Timothy', '1995-02-27', 1739785215);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201672867,5, 'Ranna', '1996-04-20', 6696102736);
 INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201672982,5, 'Hollyanne', '1997-07-25', 8644767747);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201676530,4.9, 'Gerty', '1996-01-14', 6410249152);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201696213,2.3, 'Keir', '1994-08-24', 4060753203);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201703344,4.5, 'Ransell', '1995-10-23', 2884799966);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201707499,4.0, 'Delcine', '1997-05-24', 7350182090);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201713108,2.3, 'Wylma', '1993-04-24', 8600891205);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201713722,3.4, 'Florie', '1995-12-02', 7592732238);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201721125,2.0, 'Chiquia', '1996-07-02', 4496581302);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201721469,3.0, 'Corney', '1996-03-11', 3758660149);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201737597,1.3, 'Perri', '1994-01-21', 9073091063);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201753268,4.2, 'Bunny', '1997-10-27', 54727022);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201754749,2.7, 'Lefty', '1994-11-10', 3147798666);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201755660,3.5, 'Stafani', '1991-08-05', 5070680137);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201763907,2.9, 'Orly', '1998-12-17', 336229585);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201767900,3.0, 'Farrah', '1997-11-17', 6609415404);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201779978,4.0, 'Johnny', '1995-07-28', 4130941720);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201781701,3.5, 'Darwin', '1993-08-21', 9695337783);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201789759,2.5, 'Franny', '1993-01-23', 7608709510);
-INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201793240,4.9, 'Marney', '1996-07-07', 8998773457);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201676530,5, 'Gerty', '1996-01-14', 6410249152);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201696213,5, 'Keir', '1994-08-24', 4060753203);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201703344,5, 'Ransell', '1995-10-23', 2884799966);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201707499,5, 'Delcine', '1997-05-24', 7350182090);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201713108,5, 'Wylma', '1993-04-24', 8600891205);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201713722,5, 'Florie', '1995-12-02', 7592732238);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201721125,5, 'Chiquia', '1996-07-02', 4496581302);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201721469,5, 'Corney', '1996-03-11', 3758660149);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201737597,5, 'Perri', '1994-01-21', 9073091063);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201753268,5, 'Bunny', '1997-10-27', 54727022);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201754749,5, 'Lefty', '1994-11-10', 3147798666);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201755660,5, 'Stafani', '1991-08-05', 5070680137);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201763907,5, 'Orly', '1998-12-17', 336229585);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201767900,5, 'Farrah', '1997-11-17', 6609415404);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201779978,5, 'Johnny', '1995-07-28', 4130941720);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201781701,5, 'Darwin', '1993-08-21', 9695337783);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201789759,5, 'Franny', '1993-01-23', 7608709510);
+INSERT INTO Utilizador (numero_up, pontuacao_passageiro, nome, data_nascimento, numero_telemovel) VALUES (201793240,5, 'Marney', '1996-07-07', 8998773457);
 
 -- Table: Condutor
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201614806, '19739-12-03', 2, 1);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201620671, '5117-05-23', 2, 2);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201614806, '19739-12-03', 5, 1);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201620671, '5117-05-23', 5, 2);
 INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201646646, '12963-10-04', 5, 3);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201676530, '5430-01-09', 3, 4);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201696213, '17838-05-23', 4, 6);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201703344, '3922-01-22', 4, 5);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201713108, '11957-06-16', 2, 7);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201763907, '9511-08-25', 3, 8);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201779978, '18565-01-23', 4, 9);
-INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201781701, '17098-08-20', 1, 10);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201676530, '5430-01-09', 5, 4);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201696213, '17838-05-23', 5, 6);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201703344, '3922-01-22', 5, 5);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201713108, '11957-06-16', 5, 7);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201763907, '9511-08-25', 5, 8);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201779978, '18565-01-23', 5, 9);
+INSERT INTO Condutor (numero_up, data_validade_carta, pontuacao_condutor, carro) VALUES (201781701, '17098-08-20', 5, 10);
 
 
 -- Table: Mensagem
@@ -162,8 +162,8 @@ INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VAL
 
 
 -- Table: avaliacao
-INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201620178, 4, 3.7, 4.1);
-INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201707499, 6, 4.5, 3.6);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201620178, 4, 5, 4.1);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201707499, 6, 5, 3.6);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201663587, 1, 4.1, 2.9);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201621769, 1, 1.3, 0.2);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201737597, 1, 0.9, 2.3);
@@ -171,7 +171,7 @@ INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passage
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201672982, 9, 1.3, 4);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201636717, 5, 2.5, 4);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201754749, 8, 3, 2.3);
-INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201793240, 4, 0.1, 4);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201793240, 4, 5, 4);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201614806, 7, 0.2, 1.7);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201763907, 10, 0.2, 1.5);
 INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201696213, 2, 4.1, 0);
