@@ -113,7 +113,7 @@ INSERT INTO Zona (id, nome) VALUES (10, 'Foz');
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (1, 'true', 3.7, 2, '10:17 PM', '2018-04-29', '2018-04-30', 1, 201614806);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (2, 'true', 4.5, 5, '12:41 PM', '2018-05-11', '2018-05-27', 2, 201763907);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (3, 'false', 4.1, 3, '5:10 AM', '2018-05-18', '2018-05-29', 3, 201696213);
-INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (4, 'false', 1.3, 5, '10:20 AM', '2018-04-24', '2018-04-25', 4, 201781701);
+INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (4, 'true', 1.3, 5, '10:20 AM', '2018-04-24', '2018-04-25', 4, 201781701);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (5, 'true', 4.1, 3, '1:25 PM', '2018-05-04', '2018-05-27', 5, 201620671);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (6, 'false', 3.6, 2, '2:10 AM', '2018-06-05', '2018-06-06', 6, 201676530);
 INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_começo, data_inicio, data_fim, dia_da_semana, condutor) VALUES (7, 'false', 2.6, 3, '11:33 AM', '2018-04-29', '2018-05-16', 7, 201703344);
@@ -161,22 +161,21 @@ INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VAL
 INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201754749, 8, 'Claremont', '47.516231', 1);
 
 
--- Table: Avalicao
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201620178, 4, 3.7, 4.1);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201707499, 6, 4.5, 3.6);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201663587, 1, 4.1, 2.9);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201621769, 1, 1.3, 0.2);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201737597, 1, 0.9, 2.3);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201767900, 10, 0.8, 4.7);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201672982, 9, 1.3, 4);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201721469, 4, 4, 3.9);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201636717, 5, 2.5, 4);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201754749, 8, 3, 2.3);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201793240, 4, 0.1, 4);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201614806, 7, 0.2, 1.7);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201763907, 10, 0.2, 1.5);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201696213, 2, 4.1, 0);
-INSERT INTO Avalicao (utilizador, viagem, avalicao_condutor, avalicao_passageiro) VALUES (201672867, 7, 3, 2.6);
+-- Table: avaliacao
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201620178, 4, 3.7, 4.1);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201707499, 6, 4.5, 3.6);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201663587, 1, 4.1, 2.9);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201621769, 1, 1.3, 0.2);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201737597, 1, 0.9, 2.3);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201767900, 10, 0.8, 4.7);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201672982, 9, 1.3, 4);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201636717, 5, 2.5, 4);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201754749, 8, 3, 2.3);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201793240, 4, 0.1, 4);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201614806, 7, 0.2, 1.7);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201763907, 10, 0.2, 1.5);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201696213, 2, 4.1, 0);
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201672867, 7, 3, 2.6);
 
 
 PRAGMA foreign_keys = on;

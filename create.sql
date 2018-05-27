@@ -29,7 +29,7 @@ modelo INTEGER REFERENCES Modelo (id) ON DELETE RESTRICT ON UPDATE CASCADE NOT N
 -- Table: Utilizador
 CREATE TABLE Utilizador (
 numero_up INTEGER PRIMARY KEY,
-pontuacao_passageiro INTEGER NOT NULL DEFAULT (0),
+pontuacao_passageiro INTEGER DEFAULT (5),
 nome STRING NOT NULL,
 data_nascimento DATE NOT NULL,
 numero_telemovel INTEGER NOT NULL UNIQUE);
@@ -38,18 +38,18 @@ numero_telemovel INTEGER NOT NULL UNIQUE);
 CREATE TABLE Condutor (
 numero_up INTEGER REFERENCES Utilizador (numero_up) ON DELETE CASCADE ON UPDATE CASCADE PRIMARY KEY,
 data_validade_carta DATE NOT NULL,
-pontuacao_condutor INTEGER NOT NULL DEFAULT (0),
+pontuacao_condutor INTEGER NOT NULL DEFAULT (5),
 carro Integer REFERENCES Carro (id) ON DELETE RESTRICT ON UPDATE CASCADE NOT NULL);
 
--- Table: Avalicao
-CREATE TABLE Avalicao (
+-- Table: avaliacao
+CREATE TABLE Avaliacao (
 utilizador INTEGER REFERENCES Utilizador (numero_up) ON DELETE RESTRICT ON UPDATE CASCADE NOT NULL,
 viagem INTEGER REFERENCES Viagem (id) ON DELETE RESTRICT ON UPDATE CASCADE NOT NULL,
-avalicao_condutor INTEGER NOT NULL,
-avalicao_passageiro INTEGER NOT NULL,
+avaliacao_condutor INTEGER NOT NULL,
+avaliacao_passageiro INTEGER NOT NULL,
 PRIMARY KEY (utilizador, viagem),
-CONSTRAINT "limite-minimo-de-avalicao" CHECK (avalicao_condutor >= 0 and avalicao_passageiro >= 0),
-CONSTRAINT "limite-maximo-avalicao" CHECK (avalicao_condutor <= 5 and avalicao_passageiro <= 5));
+CONSTRAINT "limite-minimo-de-avaliacao" CHECK (avaliacao_condutor >= 0 and avaliacao_passageiro >= 0),
+CONSTRAINT "limite-maximo-avaliacao" CHECK (avaliacao_condutor <= 5 and avaliacao_passageiro <= 5));
 
 -- Table: LocalidadesPossiveis
 CREATE TABLE LocalidadesPossiveis (
