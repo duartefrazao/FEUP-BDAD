@@ -10,6 +10,8 @@ PRAGMA foreign_keys = ON;
 
 select * from viagem where id = 1;
 
+.read gatilho2_adiciona.sql
+
 .print ''
 .print '<<<Apos inserir utilizador que é o condutor>>>'
 .print ''
@@ -17,3 +19,5 @@ select * from viagem where id = 1;
 INSERT INTO LocalParagem (utilizador, viagem, morada, coordenadas_GPS, zona) VALUES (201614806, 1, 'Porto', '13.220554', 2);
 
  select * from viagem where id = 1;
+
+.read gatilho2_remove.sql

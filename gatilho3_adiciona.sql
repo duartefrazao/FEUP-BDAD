@@ -10,7 +10,7 @@ CREATE TRIGGER ImpedirAssociar
 
 BEFORE INSERT ON LocalParagem
 FOR EACH ROW
-WHEN ( new.utilizador = (select condutor from (select partilha_associada from viagem where new.viagem = viagem.id)))
+WHEN ( new.utilizador = (select condutor from partilha where partilha.id = (select partilha_associada from viagem where viagem.id = 1)))
 BEGIN
-SELECT RAISE(rollback, '<<<Utilizador é o condutor! Impossível associar>>>');
+SELECT RAISE(ignore, 'Utilizador é o condutor! Impossível associar');
 END;
