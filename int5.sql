@@ -2,25 +2,17 @@
 .headers on
 .nullvalue NULL
 
--- Qual é a diferença entre a partilha mais cara e mais barata a partir da mesma zona com destino FEUP
+-- Qual é o condutor que leva mais vezes o carro cheio?
 
-CREATE view expensivesharing
-AS
-  SELECT preco_total
-  FROM   partilha
-  ORDER  BY preco_total DESC
-  LIMIT  1;
-
-CREATE view cheapesharing
-AS
-  SELECT preco_total
-  FROM   partilha
-  ORDER  BY preco_total ASC
-  LIMIT  1;
-
-SELECT expensivesharing.preco_total - cheapesharing.preco_total 'Diferença de preços'
-FROM   expensivesharing,
-       cheapesharing;
-
-DROP view IF EXISTS expensivesharing;
-DROP view IF EXISTS cheapesharing;
+SELECT condutor.*,
+       Max(n) "Vezes que levou o carro cheio"
+FROM   (SELECT condutor,
+               Count(*) n
+        FROM   (SELECT partilha.id,
+                       condutor
+                FROM   partilha,
+                       viagem
+                WHERE  lugares_ocupados = lugares_disponiveis
+                       AND partilha_associada = partilha.id)
+        GROUP  BY condutor),
+       condutor; 
