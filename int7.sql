@@ -2,17 +2,11 @@
 .headers on
 .nullvalue NULL
 
--- Utilzadores que partiram da Zona 9 num intervalo de datas
+-- Utilizadores que nunca tiveram uma avaliação 5
 
 select
-  utilizador
+  distinct utilizador
 from
-  localparagem
-join
-  viagem
-where
-  localparagem.viagem = viagem.id
-and
-  zona = "9"
-and
-  julianday(data) < (julianday('2018-02-02') + julianday('2000-01-08') - julianday('2000-01-01'));
+  avaliacao
+group by avaliacao_condutor, avaliacao_passageiro
+having Max(avaliacao_condutor) < 5 AND Max(avaliacao_passageiro) < 5
