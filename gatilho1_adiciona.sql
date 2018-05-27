@@ -42,14 +42,3 @@ BEGIN
 
         
 END;
-
---Select * from utilizador where numero_up=201721469;
-
-
---select numero_up, pontuacao_condutor from Condutor where numero_up=201781701;
---INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201721469, 4, 5, 3.9);
---select numero_up, pontuacao_condutor from Condutor where numero_up=201781701;
-
---Select * from utilizador where numero_up=201721469;
---INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201721469, 2, 4, 5);
---Select * from utilizador where numero_up=201721469;
