@@ -125,7 +125,7 @@ INSERT INTO Partilha (id, para_feup, preco_total, lugares_disponiveis, hora_come
 
 -- Table: Viagem
 INSERT INTO Viagem (id, lugares_ocupados, data, partilha_associada) VALUES (1,1, '2018-01-09', 1);
-INSERT INTO Viagem (id, lugares_ocupados, data, partilha_associada) VALUES (2,4, '2017-10-20', 2);
+INSERT INTO Viagem (id, lugares_ocupados, data, partilha_associada) VALUES (2,4, '2018-01-09', 2);
 INSERT INTO Viagem (id, lugares_ocupados, data, partilha_associada) VALUES (3,2, '2017-04-30', 3);
 INSERT INTO Viagem (id, lugares_ocupados, data, partilha_associada) VALUES (4,5, '2018-02-04', 4);
 INSERT INTO Viagem (id, lugares_ocupados, data, partilha_associada) VALUES (5,3, '2017-11-23', 5);
