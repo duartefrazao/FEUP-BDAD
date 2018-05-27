@@ -3,7 +3,7 @@
 .nullvalue NULL
 
 
---Qual a pontuação do condutor
+--Condutores com 5 a todas as viagens
 
 select nome,pontuaçao_condutor from condutor natural join utilizador where nome = "Trever";
 

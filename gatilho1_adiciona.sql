@@ -1,9 +1,23 @@
-create trigger trig1
-after insert on Avaliaçao
-for each row 
-begin
-update Utilizador set pontuaçao_condutor=(select distinct idCliente from Carro as car where new.idCarro=car.idCarro) where idReparacao=new.utilizador;
-end;
+.mode columns
+.header on
+.nullvalue NULL
 
---INSERT INTO Reparacao (dataInicio, dataFim, idCliente, idCarro)
---VALUES ('2010-09-15', '2010-09-16', NULL, 1);
+PRAGMA foreign_keys = ON;
+
+--  Atualizar as pontuações
+
+DROP TRIGGER IF EXISTS AtualizaPontuacoes;
+
+CREATE TRIGGER AtualizaPontuacoes
+BEFORE INSERT ON Avaliacao
+BEGIN
+    UPDATE Utilizador 
+        SET pontuacao_passageiro = (new.avaliacao_passageiro +   (select count(*) + 1 from Avaliacao where new.utilizador=Avaliacao.utilizador)*(select pontuacao_passageiro from Utilizador where new.utilizador = numero_up ))/( select count(*)+ 2 from Avaliacao where new.utilizador=Avaliacao.utilizador)
+        WHERE new.utilizador=Utilizador.numero_up;
+END;
+
+Select * from utilizador where numero_up=201721469;
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201721469, 4, 4, 3.9);
+Select * from utilizador where numero_up=201721469;
+INSERT INTO Avaliacao (utilizador, viagem, avaliacao_condutor, avaliacao_passageiro) VALUES (201721469, 2, 4, 5);
+Select * from utilizador where numero_up=201721469;
