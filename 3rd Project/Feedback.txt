@@ -1,0 +1,79 @@
+== Pertinência
+
+
+
+Interrogações pertinentes.
+
+
+
+Int1: podiam ter feito a query com a data atual
+
+Int3: não é muito relevante devolver o id da viagem. Era interessante ter também os locais de paragem;
+
+
+
+Bons triggers.
+
+
+
+== Diversidade SQL
+
+
+
+1. datas; natural join
+
+2. in
+
+3. ORDER BY, aritmética no select
+
+4. agregação, distinct
+
+
+
+
+
+== Correção/Otimização
+
+1. Se são necessárias condições de junção, não é adequado fazer "natural join". Podiam ter feito com a data atual.
+
+
+
+2. Com JOIN usa-se using e não "where".
+
+
+
+3. Com JOIN usa-se using e não "where".
+
+
+
+4. Não percebi como é que a vossa solução dá resposta ao que esta interrogação é suposto fazer. Não devolve nada. Porque não fazem o rank usando simplesmente a pontuação do condutor?
+
+
+
+5. Quando o select tem elementos agregados, não podemos incluir atributos que não estejam no group by. Por exemplo, no vosso caso deviam ser devolvidos 3 condutores e só foi devolvido 1. Falta condição de junção entre a subquery e a tabela condutor.
+
+
+
+6. Se querem o nome associado ao max, precisariam de de ter um group by por id e depois ir buscar o nome numa query externa.
+
+
+
+7. Precisavam mesmo de uma vista?
+
+
+
+8. Com JOIN usa-se using e não "where". Comparação de horas não está ok. Façam, p.ex.: "select * from Partilha where hora_começo>'10:16 PM' AND hora_começo<'10:30 PM';"
+
+
+
+9. Não podem ter atributos no select sem estarem no GROUP BY. Para o max precisariam de um group BY e de ir buscar os restantes atributos numa query externa.
+
+
+
+10. Com JOIN usa-se using e não "where". Comparação com horas não está ok. Ver comentário à interrogação 8.
+
+
+
+
+
+== Complexidade

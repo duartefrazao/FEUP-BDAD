@@ -1,0 +1,45 @@
+Formato de entrega ok.
+
+
+* Contexto
+
+É para a universidade ou para a FEUP?
+
+
+* Classes
+
+- Não deviam armazenar informação sobre reservas/marcações? Como é que os condutores gerem essa informação?
+
+
+* Atributos
+
+- a pontuação em Utilizador, a existir devia ser derivado.
+
+- A classe de associação Avaliação só devia ter um atributo. Reparem que vai existir para cada par Utilizador-Viagem, pelo que, numa viagem com 1 pessoa + 1 condutor vão existir 2 pares.
+
+- Como é que guardam a informação de uma partilha que ocorre todas as 2as feiras?
+
+- Como guardam informação de que uma partilha é pontual e não regular?
+
+
+* Associações
+
+- A associação "Aceita apanhar passageiros em" também é para "levar passageiros para" não?
+
+- Uma mensagem não deve estar associada a uma partilha?
+
+- Os Locais de Paragem não deviam estar associados à Partilha? Como é que as pessoas gerem o interesse se não souberem quais podem ser os locais de paragem?
+
+
+* Multiplicidades
+
+
+* Restrições
+
+- Têm restrições.
+
+- A restrição em Localidade não é bem uma restrição. 
+
+- Como vão fazer a divisão do preço total se há pessoas a sair antes em Locais de Paragem?
+
+- Podiam ter uma restrição na viagem indicando que tem de estar entre data_inicio e data_fim de Partilha.

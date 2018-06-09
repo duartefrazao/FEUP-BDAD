@@ -1,0 +1,109 @@
+= Modelo conceptual revisto?
+
+Não surge nem o modelo conceptual inicial, nem o modelo conceptual revisto. Avaliei o MR a partir do MC do relatório da Entrega 1.
+
+
+
+= Esquema Relacional
+
+
+
+=== Relações e atributos
+
+Nome dos atributos nem sempre coincidentes com os usados no MC.
+
+Condutor: tem pontuacao_condutor a mais
+
+Partilha: dia da semana a mais
+
+Zona é para a classe Localidade?
+
+LocalidadesPossiveis está mapeada como se a associação fosse *-*
+
+
+
+=== Chaves primárias
+
+Utilizador: sem indicação da PK. 
+
+
+
+=== Chaves estrangeiras
+
+
+
+= Relatório
+
+
+
+=== DF e FN
+
+Na indicação das DF não se devem indicar as FK.
+
+Mensagem: {data, Emissor}-> resto? (se a data tiver o timestamp..
+
+Carro: {id}-> apenas matrícula?
+
+
+
+LocalidadesPossiveis: relação não possuí qq DF não trivial.
+
+
+
+LocalParagem: {idUtilizador, idViagem}-> idZona?
+
+
+
+Falta explicar porquê que alguns atributos são chave.
+
+
+
+=== Restrições
+
+
+
+= Criação BD
+
+12 de 12 tabelas criadas.
+
+
+
+Script SQL podia estar indentado para ser mais legível.
+
+
+
+Avaliação: pq avaliações são DOUBLE?
+
+
+
+As PK são sempre NOT NULL. Não é necessário ser redundante.
+
+
+
+Nomes dos atributos no script nem sempre coincidentes com os usados no MR.
+
+
+
+Condutor: falta numero de carta e falta FK para Carro.
+
+
+
+Pq. tipo de dados STRING?
+
+
+
+Mensagem: Faltam as 2 FK para Utilizador.
+
+
+
+Utilizador: tb. não é necessário dizer que a PK é unique.
+
+
+
+= Inserção
+
+4 de 12 tabelas com dados.
+
+
+
+Vários erros de FK.
