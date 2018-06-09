@@ -14,3 +14,8 @@ Henrique Miguel Bastos Goncalves
 * Student Number: 201608320
 * E-Mail: up201608320@fe.up.pt
 <br><br>
+
+### Grades
+* 1st Project - 17,0
+* 2nd Project - 14,1
+* 3rd Project - 14,2
